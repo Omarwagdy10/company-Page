@@ -1,0 +1,235 @@
+@media (width < 800px) {
+    .body {
+      width: 100%;
+      overflow-x: hidden;
+    }
+  
+    .header {
+      width: 100%;
+      position: relative;
+    }
+  
+    .ESigenda {
+      width: fit-content;
+    }
+    .h1 {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .list1 {
+      width: 35%;
+      position: absolute;
+      background-color: #353434;
+      gap: 20px;
+      z-index: 5;
+      top: 100%;
+      right: 0;
+      transition: all 1s ease;
+      border-bottom-left-radius: 18px;
+      border-top-left-radius: 18px;
+    }
+  
+    .hide {
+      position: absolute;
+      right: -400px;
+    }
+  
+    .list1 ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      gap: 20px;
+    }
+  
+    .list1 ul li {
+      list-style: none;
+      padding: 10px 0px;
+    }
+  
+    .list1 ul li a {
+      font-size: 18px;
+    }
+
+    .toggle{
+      display: block;
+    }
+    /* advanced */
+  
+    .advanced {
+      width: 100%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .container {
+      width: 100%;
+    }
+  
+    .advanced p {
+      font-size: 20px;
+      font-weight: 500;
+      text-align: center;
+    }
+  
+    .container {
+      text-align: center;
+      width: 100%;
+    }
+    .bullhorn {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+    }
+  
+    .bullhorn1 {
+      width: 70px;
+      height: 70px;
+    }
+    .bullhorn1 i {
+      font-size: 40px;
+    }
+  
+    .arrow {
+      font-size: 25px;
+      display: none;
+    }
+  
+    /* body2 */
+  
+    .body2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+    }
+  
+    .body2-img {
+      width: 100%;
+    }
+  
+    .body2-data {
+      text-align: center;
+      width: 100%;
+      padding: 0px 10px;
+    }
+  
+    .body2-data h2 {
+      width: 100%;
+      font-size: 30px;
+      margin: 8px 0px;
+    }
+  
+    .body2-data p {
+      margin-top: 10px;
+      font-size: 20px;
+      width: 100%;
+      text-align: center;
+    }
+    .body2-data button {
+      margin: 10px 0px;
+      cursor: pointer;
+      padding: 15px 30px;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      border-bottom-left-radius: 15px;
+      font-size: 15px;
+      color: white;
+      background-color: #353434;
+      border: solid 1px gray;
+      transition: all 0.7s ease;
+      font-weight: 700;
+    }
+  
+    .body2-data button:hover {
+      background-color: white;
+      color: black;
+      font-weight: 700;
+    }
+  
+    /* body3 */
+  
+    .body3-img {
+      padding: 20px 0px;
+    }
+  
+    .body3-data h2 {
+      font-size: 20px;
+    }
+    .body3-data p {
+      font-size: 15px;
+      width: 100%;
+    }
+  
+    /* body4 */
+  
+    .data4-img{
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .cards{
+      width: 100%;
+    }
+  
+  
+    /*body5  */
+    .body5-data{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+  
+    }
+    
+    .data5-containt{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+    }
+  
+    /* body6 */
+    .body6{
+      width: 100%;
+    }
+  
+    .body6-data{
+      width: 100%;
+    }
+  
+    .body6 .but2{
+      padding: 15px 40px;
+    }
+  
+    /* body7 */
+    .body7{
+      width: 100%;
+    }
+  
+    /* footer */
+    .footer-container{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px ;
+    }
+    .width{
+      width: 45%;
+     display: flex;
+     flex-direction: column;
+  
+    }
+  
+    .insta{
+      display: none;
+    }
+  }
+  

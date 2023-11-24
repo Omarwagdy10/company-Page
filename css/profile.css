@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+  overflow-x:hidden ;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #232323;
+  }
+  
+  .h1 {
+    display: flex;
+    color: white;
+    padding: 10px;
+  }
+  
+  .list1 {
+    width: 100%;
+    text-align: center;
+  }
+  .toggle {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    display: none;
+  }
+  .list1 ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .list1 ul li {
+    list-style: disc;
+    color: white;
+    padding: 5px;
+    font-weight: 800;
+    list-style: none;
+  }
+  
+  .list1 ul li a {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    
+  }
+  
+  .list1 ul li a:hover {
+    color: gray;
+  }
+
+
+  /* body4 */
+
+  
+.body3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 0px;
+  }
+  
+  .body3-data {
+    width: 100%;
+    padding: 0px 10px;
+  }
+  
+  .body3-data h2 {
+    font-size: 30px;
+  }
+  .body3-data p {
+    font-size: 20px;
+  }
+  
+  .body3-img {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .block2 {
+    display: flex;
+  }
+  .img1 {
+    width: 50%;
+  }
+  .img2 {
+    width: 50%;
+  }
+  
+  .img3 {
+    width: 40%;
+  }
+  
+  .img4 {
+    width: 60%;
+  }
+  
+
+  /* footer */
+
+  .footer {
+    width: 100%;
+  
+    height: 100%;
+    background-color: #232323;
+  }
+  
+  .footer-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+  }
+  
+  .aboutshop {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 19%;
+    height: 100%;
+  }
+  
+  h3 {
+    font-size: 30px;
+    padding: 10px;
+  }
+  
+  .address {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .address i {
+    font-size: 30px;
+  }
+  
+  .phone {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .phone i {
+    font-size: 30px;
+  }
+  .email {
+    display: flex;
+    gap: 10px;
+  }
+  .email i {
+    font-size: 30px;
+  }
+  
+  .inf {
+    width: 19%;
+    color: white;
+  
+    /* border: solid; */
+    /* margin-left: 50px; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+  }
+  
+  .insta {
+    /* border: solid white; */
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* flex-direction:row; */
+    width: 19%;
+    gap: 5px;
+    align-items: center;
+    /* justify-content: center; */
+    color: white;
+  }
+  .block1 {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+  }
+  .insta-img {
+    width: 20%;
+    background-color: white;
+    /* height: 10%; */
+  }
+  
+  .Newsletter {
+    color: white;
+    /* border: solid white; */
+    width: 19%;
+  }
+  
+  .Newsletter input {
+    display: flex;
+    border: solid white;
+    width: 70%;
+    padding: 5px;
+    margin: 10px 0px;
+    border-radius: 7px;
+  }
+  
+  .Newsletter button {
+    padding: 10px;
+    color: white;
+    background-color: #fbca47;
+    border: none;
+    border-radius: 7px;
+    margin: 10px 0px;
+    cursor: pointer;
+  }
+  
+  .list0 ul {
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  .list0 ul li {
+    padding: 5px;
+    font-size: 30px;
+  }
+  
+  .list0 ul a {
+    color: white;
+  }
+  .list0 ul a:hover {
+    color: #fbca47;
+  }
+  
+  .copy-right {
+    border-top: solid white;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .copy-right h5 {
+    color: white;
+    padding: 20px;
+  }
+  
+  
+
+
